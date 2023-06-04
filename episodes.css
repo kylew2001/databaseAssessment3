@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-image: url('https://external-preview.redd.it/S56GfES9JvoqfWRsKcDKcKQQvw8cukgPicMjV6QDGqE.jpg?auto=webp&s=071d7b0a3b4dbfa887a6b92666e2ff06424d29ae');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 20px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 4em;
+  margin-top: 0.3em;
+}
+
+input,
+button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 0.2rem;
+  -webkit-appearance: none;
+}
+
+input {
+  border: 1px solid lightgray;
+  margin-right: 0.4em;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  border: 1px solid transparent;
+  background: #be218f;
+  color: white;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+#wrapper {
+  background: #000000c2;
+  width: 85vw;
+  height: 100%;
+  text-align: center;
+  margin: 4em auto;
+  padding: 1em;
+ 
+}
+
+#episodes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 30px;
+
+}
+
+
+
+  
